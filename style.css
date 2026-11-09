@@ -400,6 +400,17 @@ section {
 .col:hover {
   transform: translateY(-4px);
 }
+.col-art {
+  width: 100%;
+  height: 200px;
+  display: grid;
+  place-items: center;
+}
+.col-art img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;
+}
 .col svg {
   width: 60%;
   margin: 0 auto;
