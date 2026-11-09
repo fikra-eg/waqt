@@ -951,3 +951,16 @@ main {
   font-family: Cairo, Inter, sans-serif;
   line-height: 1.7;
 }
+
+
+/* WAQT hero button position override */
+.hero .t .hero-bottom {
+  position: relative !important;
+  top: -14px !important;
+  transform: none !important;
+}
+@media (max-width: 700px) {
+  .hero .t .hero-bottom {
+    top: -18px !important;
+  }
+}
