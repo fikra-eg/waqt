@@ -14,7 +14,7 @@ const HERO_WATCH_ID = 4; // الساعة اللي بتظهر كخلفية في �
 const FEATURED_ID = 6; // الساعة اللي في قسم Featured
 
 // الساعة اللي بتمثّل كل Collection في قسم "Shop by style"
-const COLLECTION_PICS = { classic: 1, sporty: 4, minimal: 7 };
+const COLLECTION_PICS = { classic: 3, sporty: 4, minimal: 7 };
 
 // الوصف القصير تحت كل Collection (إنجليزي)
 const STY = {
