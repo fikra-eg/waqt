@@ -5,6 +5,14 @@
    - الضغطات والكتابة (events)
    ========================================================== */
 
+// لو صورة منتج خارجية فشلت، اعرض رسمة الساعة بدل مساحة صورة مكسورة.
+document.addEventListener("error", (e) => {
+  const img = e.target;
+  if (img.tagName !== "IMG" || !img.dataset.watchId) return;
+  const p = byId(img.dataset.watchId);
+  if (p) img.replaceWith(document.createRange().createContextualFragment(W(p, +img.dataset.watchZoom)));
+}, true);
+
 // ظهور العناصر بحركة خفيفة وقت السكرول
 function reveal() {
   const io = new IntersectionObserver(
