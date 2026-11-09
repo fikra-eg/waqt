@@ -20,7 +20,6 @@ function heroSection() {
       <small>MEN’S WATCHES · EGYPT</small>
       <h1>A watch for every day</h1>
       <div class="hero-bottom">
-  <p>Classic, sporty and minimal men’s watches. Fair prices, easy ordering on WhatsApp.</p>
   <a class="btn" href="#shop">Shop now</a>
 </div>
     </div>
