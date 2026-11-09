@@ -57,7 +57,7 @@ function collectionsSection() {
   const cols = ["classic", "sporty", "minimal"]
     .map(
       (s) =>
-        `<a class="col rv" href="#shop-${s}">${`<div class="col-art col-art-${s}">${pic(byId(COLLECTION_PICS[s]))}</div>`}<div><h3>${s.toUpperCase()}</h3><span>${STY[s]}</span></div></a>`,
+        `<a class="col rv" href="#shop-${s}"><div><h3>${s.toUpperCase()}</h3><span>${STY[s]}</span></div></a>`,
     )
     .join("");
   return `<section id="collections" style="padding-top:0"><div class="wrap">
