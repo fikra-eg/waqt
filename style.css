@@ -964,3 +964,16 @@ main {
     top: -18px !important;
   }
 }
+
+
+/* Ensure Shop by style stays text-only, including stale markup */
+#collections .col-art,
+#collections .col > img,
+#collections .col picture {
+  display: none !important;
+}
+@media (max-width: 860px) {
+  .hero .t .hero-bottom {
+    top: -34px !important;
+  }
+}
