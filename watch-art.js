@@ -29,6 +29,6 @@ function W(p, zoom) {
 const pic = (p, z) => {
   const src = z ? p.img2 || p.img : p.img;
   return src
-    ? `<img src="${src}" alt="${p.name}" loading="lazy" style="width:${p.size || 82}%;height:${p.size || 82}%;object-fit:contain">`
+    ? `<img src="${src}" alt="${p.name}" loading="lazy" data-watch-id="${p.id}" data-watch-zoom="${z ? 1 : 0}" style="width:${p.size || 82}%;height:${p.size || 82}%;object-fit:contain">`
     : W(p, z);
 };
